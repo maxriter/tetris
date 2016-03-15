@@ -1,0 +1,253 @@
+[33m0cc3269[m Added new fiture
+[33m8f468ac[m Merge pull request #1 from gitter-badger/gitter-badge
+[33m602401d[m Added Gitter badge
+[33md9ccc57[m rollback 2
+[33m3fa9d61[m merged from master
+[33m9fe66ff[m Implemented huge feature
+[33mb6657b6[m Added javasimple
+[33m69de7c3[m MAde private gift
+[33m4916efc[m Added git public
+[33m27e2b56[m Added new year feature
+[33mdb7ae73[m Switched to beta (reverted from commit 4f7396ecc4638bcc46e438b4888e24a45850e43a)
+[33m4f7396e[m Switched to beta
+[33me8b6d9d[m Обновил архив клиентов
+[33m3a109de[m Исправил node.js клиента для игры. + форму регистрации - она больше не глючт для localhost.
+[33m2d4cdef[m Merge github.com:tdd-elevator-training/tetris
+[33mca1779e[m Обновил сервак
+[33mde00216[m Исправил тесты, а то поломались
+[33md71e252[m Merge pull request #3 from vasiliybondarenko/master
+[33ma9f5024[m Typo in admin page
+[33mc5f912a[m Local address resolving issue
+[33mba1ef84[m Исправил ошибку
+[33m0a733ad[m Теперь тетрис работает на вебсокетах - раньше не правильно работал board и другие детали связанные с тем, что контекст поменялся. Теперь все работает так же как и на серваке. Поменял метод подсчета очков, чтобы небыло минусов. Упроситил регистрацию, но теперь надо придумать как мы будем разливать пользователей - может страничку регистрации с логином и паролем прикрутить? Исправил пути в maven чтобы депенденси подтягивались для dojo transport. Обновил canvas -  с ним какая-то беда была.
+[33m50eb727[m Added websockets client jsp
+[33m3e20eda[m Added websockets client jsp
+[33m3b208c6[m Jetty updated, TetrisGame for WS is not URL encoded
+[33mcf660b2[m New template for java tetris client with websockets support
+[33mbcc75b4[m Added support for websocket clients. A client can register himself by websocket on /wsregister page
+[33mbb9cc27[m Transportation layer is moved to dojo-transport library
+[33m34a8817[m Some fixes to start web application
+[33m10961a0[m Moved FakeHttpServer to transport package
+[33mbbb1bab[m Refactoring continued
+[33m969204b[m Beginning of breaking down into components. Split out transport into separate service.
+[33m32de992[m Попытка исправить билд на travis-ci
+[33me5e10c7[m Исправил чуть help страничку - рисунок не тот был.
+[33m4230c54[m Пофиксил, чтобы в консоли билдились исходники
+[33me131376[m Обновил архив темплейтов клиентов в tetris-web
+[33mcf7e0c6[m Первая фигурка на всех уровнях - O потому, как ее укладывать проще, чем I
+[33mb0591ad[m Server sends next figures.
+[33m08b47b8[m added date to logback config
+[33mb6e73ad[m Avatar fixed
+[33mfad49f2[m Avatars added
+[33ma43ff3d[m Попробовал поменять почту, на которую отправляются письма о свалившихся билдах.
+[33m58cb8a0[m Setup https://travis-ci.org
+[33mdbe7874[m Merge pull request #2 from ndrew/master
+[33m54b2762[m Есть возможность сохранять/загружать из админки игры игроков, а так же редактировать имена и calbackUrl. Добавлена валидация на поля name/calbackUrl админки (взято из скрина регистрации) Выделен JettyRunner класс для старта Jetty, на его основе сделан SpringMockerJettyRunner который позволяет заменять на mock/spy любые сервиса внутри спринг контекста запущенного приложения.
+[33m3903236[m Сделал уровнем по умолчанию уровень ProbabilityWithoutOverflownLevels
+[33m9dfe537[m Страничку help обновил, удалив мертвые факлы и добавив описание игры с портала на случай, если инета не будет
+[33m77fbfb8[m build scripts for nix systems
+[33mf351387[m Пофиксил немного размеры таблицы leadertable а то дизайн поплыл на игре
+[33m2e587cb[m Сделал функцию которая превращает очки в % отношение относительно лидеров. Функция пока заремарена, но в хозяйстве пригодится.
+[33m1be7c75[m Исправил русскую букву с на английскую в названии переменной
+[33mee00221[m Merge github.com:tdd-elevator-training/tetris
+[33m8a461ad[m Добавил bat файлики запуска сервера с комиляцией core
+[33mb34e3f1[m Forgotten jquery.ui.widget.js
+[33mfc17015[m Updated template, fixed compilation errors in tetris-online
+[33m553d042[m Рефакторинг. Упрощаю джаваскрипт.
+[33m4809f86[m Рефакторинг. Еще чуть распутал джаваскрипт.
+[33m16d1630[m Вынес стили и джаваскрипт из странички регистрации
+[33m808b9ac[m Выделил джаваскрипт по поддержке leadertable в отдельный файл из жиеспихи.
+[33m856ef2f[m Перенес все объявления стилей и джаваскрипта в хедеры страниц. Вынес стили тетриса из джиеспих
+[33m61ed0ad[m Перенес джаваскрипт из board.jsp в board.js
+[33m84217ab[m Переместил стиль и дивчик для определения размера текста. Ему не стоит дублироваться для каждого игрока...
+[33m758ab73[m Merge github.com:tdd-elevator-training/tetris
+[33m672205a[m Подправлены очки, теперь за снятые линии будет начисляться в 10 раз больше чем раньше. В стакане клиента выводится информация о том, сколько он очков заработал. Для этого понадобилось ввести новый InformationCollector класс, который собой декорирует PlayerScores и собирает подробную информацию, а потом эта вся информация уходит клиенту. Джаваскрипт в клиенте все парсит и отрисовывает. На форме регистрации исправлена валидация - теперь можно указывать числа в имени, но после первого обязательного символа. Переместил джаваскрипты в отдельную папочку чтобы с png не путались.
+[33ma43b568[m JSP precompilation for web
+[33mc3dd940[m Small fix on glass jsp
+[33mb95b37d[m + BUG: Check if replay of winner works. Suspect that screens are sent to wrong player because of drawReplay logic in _glass.jsp
+[33madfc950[m Fixed bug with leaderboard
+[33m1d81555[m make more security restrictions in deployment
+[33m36f8054[m Еще немного полировки дизайно leaderbord таблицы. Так чтобы спать спокойно!
+[33m086adb2[m Пофиксил стиль, чтобы табличка лидерборда всегда висела в верхнем правом углу. Стилями bootstrap css я честно игрался час, но они не сделали того, что сделали 5 строк кода на джаваскрипте. И пусть простят меня верстальщики. Так же сделал немного больший шрифт таблички leaderboard - на проекторе должно быть видно!
+[33ma6925d1[m Обновил клиента после https://github.com/tdd-elevator-training/tetris-servers/commit/65adebecadeeec8c581bbd2f28fda1d1a36033a2
+[33m3161149[m Навешал валидацию на форму регистрации. Имя - только символы английского языка, длинной от двух до 15. Урл - валидный урл. Оба required.
+[33m728e49f[m Порефакторил ошибку сделанную в прошлом коммите. Поле по подсчету линий снятых без переполнения стакана не должны быть в Levels - а в его наследнике.
+[33mbe2e6a3[m Появился новый набор уровней на котором для перехода с уровня на уровень потребуется удалить 20 линий без переполнения стакана. А то была возможность заскочить на какой-то далекий уровень, при этом не научившись толком расскладывать фигурки.
+[33m0e6b4da[m Теперь нельзя заработать космическое количество очков на 5 уровне. Получается 6000 на последнем уровне, если проходить равномерно и не тупить. С каждым уровнем штраф за переполнение стакана так же увеличивается. Все очки и штрафы, кроме упавшей фигурки зависят от количества открытых фигур.
+[33md0237ed[m Случайно не то закоммитилось, реверчу
+[33mecc9656[m Теперь таблица leaderstable по аджаксу тянет информацию с сервера динамически. Описание коммита тут http://bit.ly/TD4EiN
+[33mbdb5ae5[m Fixed bug when skipping step
+[33mfead5a1[m Merge remote-tracking branch 'remote/master'
+[33mae81494[m Precompile jsp. Fix in fakeLogin.jsp to make it possible to run on standalone local jetty
+[33mf9ef666[m Обновил архив клиентов
+[33mc143c5f[m Merge github.com:tdd-elevator-training/tetris
+[33m1bde4d2[m Перенесены правила игры со странички help сервера на портал codenjoy.com
+[33ma411211[m Changed home dir
+[33m9f91dc9[m Bug with scores fixed
+[33me1e9672[m Replay cancelled from web
+[33m7ce853c[m Introducing replay request
+[33m3cc170b[m small refactoring in test
+[33m89434b8[m Stupid error with timeout fixed
+[33mc825518[m Replay should work when for several players at the same time
+[33mdd44224[m Added unit tests for replay service
+[33m4637540[m Replay of scores table
+[33m32668c4[m Score serializing
+[33m1401612[m Танцы с бубном, чтобы заработалa JSON конвертация из контроллеров
+[33m8093b20[m Moving json serialization into its own service
+[33m88e1467[m Changed packages and logback.xml
+[33me0e07fc[m Hurray!! I managed to replay my game!
+[33ma9bece6[m Fix: replay request is asynchronous
+[33m3b65b51[m Replay handler is added
+[33m7ffa247[m Fixed json mapping
+[33mc9e0e90[m Cancelling timedout requests
+[33m8e18f49[m Replay button added
+[33m7c3b3e5[m Small but important fix to reload table data
+[33m5a52fd8[m Implemented game logs table and logic to retrieve table data
+[33mf1b724a[m Added datatable for game logs
+[33mb496952[m Send 100% progress fix
+[33m2fb737c[m Upload url changed. Some fixes related to AJAX upload style
+[33md724d7c[m RestDataSender for sending progress is introduced
+[33m007dd27[m Added ReplayScreenController
+[33mc746cd3[m Sexy file upload
+[33m9b6f54d[m RestScreenSender moved back to core because it is used in tetris-online
+[33m9e4225e[m ReplayController implemented. Extracted class PlayerCommand
+[33m7c8405f[m Exception handling in GameLogFile added
+[33m3b59977[m Expiration and error handling
+[33m2c9a862[m 1. Start implementing Big Test: ReplayServiceTest 2. GameLogFile implemented 3. Refactored to use GameLogFile
+[33m18b861d[m PlayerController renamed to HttpPlayerController
+[33m6757f12[m LeaderBoard service is called from game executor
+[33m320a56f[m LeaderBoard service implemented
+[33ma99752e[m Fixed - bug with NPE in all JSPs after loosing session. bug with logback duplications.  - bug with logback duplicated logs  - bug with wrong timestamp format  - NPE in GameExecutorService
+[33ma1cc4ca[m Fixed PlayerControllerTest
+[33m5b29f41[m GameLogger service
+[33m8396cf7[m Added timestamp for uploaded file
+[33m1e86bf1[m URL Decoding of cookie value
+[33m3a8de63[m Logback fix
+[33m067a61f[m Now forwarded to uploaded.jsp after file is uploaded
+[33m5286d95[m Implemented fakelogin for local tests
+[33mb61118d[m Implemented login with wordpress
+[33m2601d07[m Tweaks and research
+[33m3796842[m Fix for player controller
+[33me2707b3[m Deploying web application
+[33m31f872d[m Added option to ask player synchronously
+[33m2ab7122[m Implemented game request checker
+[33mb0f6304[m Web application upload for online game
+[33m7c2c493[m Configuration split
+[33mb1141ff[m Refactoring - split tetris into core and web
+[33m772a71c[m Исправил EasyLevels а то он не хотел переключать уровни.
+[33me93b3c7[m Теперь очередь фигурок снова для всех уровней у юзера одна. Переместил пакет Levels где ему и место быть - в services.
+[33m73d4243[m Переместил Randomizer в FigureTypesLevel из очереди PlayerFigures Для этого потребовалась лейзи загрузка Randomizer из FigureTypesLevel для PlayerFigures путем внесения одной абстракции RandomizerFetcher.
+[33maf14a2a[m Сделал чтобы уровень по умолчанию был ProbabilityLevels. Пофиксил еще один тест (недокоммитил в прошлый раз)
+[33ma13ef64[m Исправил ошибку подписки на обновление уровня. После прошлого рефакторинга первый уровень не устанавливался в PlayerScores а тот пытался его вызвать при подсчете очков и получал NPE.
+[33me084a33[m Переместил levels классы в пакет dom.
+[33m2df7019[m Перенес описание критерией перехода из типа события в уровень. Критерий перехода на следующий уровень должен находится в FigureTypesLevel а не в event - у уровня (FigureTypesLevel) надо спрашивать критерий перехода. Вот и пофиксил.
+[33m39b7819[m Перенес свойство totalLinesRemoved из TetrisGlass в Levels.
+[33mc46eac1[m Исправил Likelihood на Probability
+[33m3a8420e[m Исправил Likelihood на Probability
+[33mbecb61e[m На board не отображается дополнительная инфа по стакану + увеличил скрипт. Теперь дополнительная инфа, типа количества снятых линий, критериев перехода на следующий уровень и текущий уровень - отображается только на личном боарде игрока, а на борде для всех игроков только имя и очки, причем шрифт учеличенный. Так же пофиксил немного твитеровский бутстрап.css потому как та табличка которую Серега добавил в прошлом коммите немного вылазила за пределы экрана если у юзера длинное имя. А чтобы юзер не вводил длинные имена я лимитировал на форме регистрации длину в поле name 15ю символами.
+[33mcded8b4[m Negative left and right moves. Negative rotation is not supported
+[33mf2080bf[m Merge remote-tracking branch 'remote/master'
+[33mbe2d70d[m Пересчитана формула рассчета очков при снятии линий. Теперь уровень не учитывается как множитель, но учитывается количество открытых фигур на уровне. Теперь PlayerScores реализует ChangeLevelListener и подписывается на изменение уровня у Levels вместо того, чтобы хранить у себя Levels как поле.
+[33m01d0588[m leaders board integrated with board
+[33md50a721[m Исправил количество линий которые надо снять, чтобы перейти на следующий уровень в вероятностном levels.
+[33mb7cd8d1[m Еще один тестик, чтобы случаем не изменить false на true.
+[33me7c0b16[m Новый список уровней - где фигуркипоявляются постепенно, а не сразу.
+[33m65febb3[m Небольшой феншуйчик - чтобы легче читалось
+[33m6fda132[m Теперь на админке можно изменить тип игры из числа описанных в пакете levels.
+[33m2d3ccfe[m Изменил уровни сложности + вывел на боард юзера информацию о том, что надо для перехода.
+[33m93bab4d[m Fixed synchronous request
+[33m8d5722a[m Поменял read lock на write lock
+[33m4d71f64[m Главная страничка + на форме регистрации заполнен IP пользователя + удаления пользователя Добалена главная страничка, на которой можно выбрать список действий для пользователя (как зарегистрированного уже, так и нового). Для зарегистрированного пользователя возможно: перейти на хелп, зарегистрироваться, посмотреть доску почета. Для незарегистрированного: хелп, посмотреть свою доску, посмотреть доску почета, выйти из игры.
+[33m6a76a04[m Добавил админку на которой можно приостановить игру для ретроспективки и возобновить обратно.
+[33md484a77[m Выделил поясняющие константы в Player Scores.
+[33m127db14[m favicon.ico
+[33mab1b0ff[m Обновил клиент, добавил README.txt
+[33m5e250bf[m Подправил страничку help - добавил поясняющий скриншот
+[33m93cc378[m Cделал на help страничке некоторые правки: 1) вставил описание, как получить свою айпишку (мало ли) и скришнот что есть что на скрине регистрации 2) темплейт перенес в папку resources, потому как по опыту дропбокс при большом числе обращений может заблочиться
+[33m9f03947[m Help page is introduced
+[33m145902c[m Help page is introduced
+[33m4c9d101[m Reverted levels
+[33m8192fa1[m shouldRemoveLinesInBetweenWhenDropped
+[33mdcd7a49[m Fixed bug - line several colors was not removed
+[33m858d333[m Now tetris has colors!
+[33m2aca33e[m Removed constructor
+[33m226c0ea[m Score depends on current level
+[33md73e875[m Fix in leaderboard jsp Float alignment in board.jsp
+[33mf4c1d37[m Production logback config logs to file only
+[33m0c4f257[m Introduced leaderboard page
+[33m0ef8526[m Refactoring to have current level in Player
+[33m853b6ab[m Merge remote-tracking branch 'remote/master'
+[33maf20907[m Fixed test net.tetris.dom.TetrisGlassTest.shouldBeOccupiedWhenLongFigureDroppedOnTopOfGlass
+[33md3742ea[m Gitignore file, чтобы не коммитило папку target и idea
+[33me43b17e[m Поревьювал тесты вращения фигур и немного подправил их устранив дублирование - теперь источником для получени фигур определенных типов являются фектори методы указанные в типе фигуры. Конструкторы фигур, которые использовались в тестовых целях сделал deprecated чтобы небыло соблазна их в продакшен коде использовать.
+[33m7a6c6d0[m Scores for glass overflow minimized to 500
+[33m40dffb0[m приходит всегда I
+[33m88da8b0[m Initial project structure
+[33mefccc4a[m Show score on page
+[33m3392ffa[m Fixes in test servlet.
+[33m841a733[m Player service passes scores to screenSender.
+[33m96488a5[m Send scores to clients
+[33m83af650[m + Send glass figures along with requestControl
+[33m5661aec[m + make exportDropped public + make exportCurrentFigure public + remove getPlots from TetrisGlass and move to player service + when null current figure - empty list for exportFigure in TetrisGlass
+[33m0ef3f08[m Kill some system.out
+[33m4b900cf[m Added TODO test
+[33m51516a7[m Added asyncrounous screen sending to client
+[33m5f8f637[m Added integration test. Created some nice output in toString
+[33m8faea31[m Fix issue when dropped figure over dropped disappears
+[33m6d98b6b[m Todo
+[33m4bc5f19[m Fixed ArrayIndexOutOfBoundsException
+[33mea769d4[m Figures queue is driven by Levels
+[33m069f10e[m Implemented moving between Game Levels logic
+[33m01ff669[m Refactoring: Renamed ScoreBoard with GlassEventListener, removed GlassEventListener from TetrisGame
+[33m9f0a187[m Score calculation implemented
+[33mf77e97b[m ScoreBoard is notified about figure dropped
+[33mab340c9[m ScoreBoard is notified about lines remove
+[33m777cf70[m Rotate is implemented
+[33m4fda0f7[m Small performance optimization
+[33m3b95d67[m Rotation is implemented
+[33mc20861c[m Started rotate implementation
+[33mbae650e[m Added test page
+[33m19a8adf[m test commit
+[33maaf3a8e[m Test servlet
+[33mfad1a88[m Filled lines should be removed
+[33m6742ce3[m Implemented lines removal logic. Now filled bottom lines should be removed
+[33mfad73ad[m Added LogBack, player communication finished
+[33mf4e1662[m Fixed unit test
+[33m2bfbc34[m PlayerController integrated with PlayerService
+[33m8a14aff[m Moved PlayerController into spring
+[33m8a314e2[m PlayerController is able to send figure coordinates
+[33m3a33ed3[m Tetris game returns its state
+[33mcd46156[m Refresh all players board when player registered
+[33m31d12e5[m Empty glass when overflown
+[33mbd68b78[m It is moving!!!!!
+[33mbc0d3f9[m Clear canvas
+[33m8307f04[m added unit tests for BoardController
+[33m358ebdc[m Fixed ScreenController - it is now spring request handler
+[33m466ae4b[m Added registering and board controller
+[33m5a4a678[m Export glass
+[33m6d8e765[m Implemented getting plot coordinates for figure
+[33m1b7623d[m Start of exporting positions of glass
+[33mfde7f7e[m Removed Console - merged with Glass
+[33m0a00bf8[m Moved services configuration to annotation driven.Added Mock screen sender to tests
+[33md4cee0b[m Logic for serializing JSON player coordinates
+[33mdf28c19[m Tons of researches: ConsoleController will gets long-polling request and add them to queue in order to send player screens when data is available ScreenSender initial test implemented Introduced Jackson mapper
+[33m7d894f7[m Did some investigation with jQuery AJAX javascript
+[33me480867[m JBehave removed
+[33m93916f3[m Merge remote-tracking branch 'origin/master'
+[33m7819259[m Start implementing interaction with player
+[33m1c26f46[m Perform drop when not accepted on new position
+[33m42071f2[m Overflow support in TetrisGame. If glass cannot accept figure at the beginning then overflow
+[33m6b507e9[m When figure rejected just after step down then do drop and take next figure - logic in TetrisGame
+[33md395589[m new cases for glass
+[33m7594182[m Tricky case for occupied. Fixed problem with coordinates alignment
+[33mf8d80c8[m More cases for occupied.  Now figures can be dropped to the empty glass.
+[33mf0a33cf[m First test for overlapped drop
+[33ma7a0bce[m TetrisFigure returns valid row codes
+[33me769348[m Introduced TetrisFigure class
+[33me3c508f[m Introducing glass with test cases
+[33md9aecc9[m Introduced Glass class
+[33mb521645[m Implemented movements restrictions. Introduced GameSetupRule and annotated preconditions handling
+[33maa366a8[m Implemented move left and right scenarios in TetrisGame
+[33mf20cb01[m Test commig
+[33m153abab[m Started writing second test
+[33me760ab3[m Initial commit
