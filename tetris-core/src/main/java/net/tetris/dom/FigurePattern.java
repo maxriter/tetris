@@ -6,6 +6,7 @@ public class FigurePattern {
     private int centerY;
     private int nullzero;
     private String present = "Present";
+    private int javasample;
 
     public FigurePattern(int centerX, int centerY, String... rows) {
         this.rows = rows;
